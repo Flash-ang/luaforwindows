@@ -1,0 +1,3 @@
+run 	echo.lua
+0	C:\luaforwindows\lua54\lua51.lua
+1	echo.lua
