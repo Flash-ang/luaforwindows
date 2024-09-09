@@ -1,0 +1,36 @@
+SETLOCAL
+
+SET PATH=%PATH%;C:\Program Files (x86)\Lua\5.1\clibs
+
+SET LUA_PATH=;;C:\Program Files (x86)\Lua\5.1\?.lua;C:\Program Files (x86)\Lua\5.1\?\init.lua;C:\Program Files (x86)\Lua\5.1\lua
+
+\?.lua;C:\Program Files (x86)\Lua\5.1\lua\?.luac;C:\Program Files (x86)\Lua\5.1\lua\?\init.lua;C:\Program Files (x86)\Lua\5.1\clibs
+
+\?.dll
+
+SET LUA_CPATH=;;C:\Program Files (x86)\Lua\5.1\clibs\?.dll;C:\Program Files (x86)\Lua\5.1\clibs\?\?.dll
+
+SET LUA_EXE=C:\luaforwindows\files\lua5.1.exe
+SET LUAC_EXE=C:\luaforwindows\files\luac5.1.exe
+SET WLUA_EXE=C:\luaforwindows\files\wlua5.1.exe
+SET RESULTS=C:\luaforwindows\results
+
+
+Need to modify code / parameter to test : 
+
+REM modify delay
+life.lua 
+
+REM table.lua -- combine test with globals.lua
+REM -- reads luac listings and reports global variable usage
+REM -- lines where a global is written to are marked with "*"
+REM -- typical usage: luac -p -l file.lua | lua globals.lua | sort | lua table.lua
+C:\luaforwindows\files\luac5.1.exe -p -l cf.lua | lua globals.lua | sort | lua table.lua
+
+
+C:\luaforwindows\files\lua5.1.exe trace-calls.lua bisect.lua
+
+REM xd.lua -- hex dump
+REM -- usage: lua xd.lua < file
+C:\luaforwindows\files\lua5.1.exe xd.lua < cf.lua
+
