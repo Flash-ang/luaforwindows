@@ -1,0 +1,7 @@
+Rings 1.2.2
+Site-local luarocks/config.lua file not found. Incomplete installation?
+Hello World!
+...........Site-local luarocks/config.lua file not found. Incomplete installation?
+Site-local luarocks/config.lua file not found. Incomplete installation?
+Site-local luarocks/config.lua file not found. Incomplete installation?
+Ok!

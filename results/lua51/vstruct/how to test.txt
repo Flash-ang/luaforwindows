@@ -1,0 +1,5 @@
+https://github.com/ToxicFrog/vstruct
+
+A Lua library for packing and unpacking binary data, 
+supporting arbitrary (byte-aligned) widths, named fields, and repetition. 
+
