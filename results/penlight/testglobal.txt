@@ -1,0 +1,6 @@
+{
+  _G = 1,
+  arg = 1,
+  require = 6,
+  rawget = 1
+}

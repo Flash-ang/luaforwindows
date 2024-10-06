@@ -1,0 +1,38 @@
+  {
+    section_=  {
+    bonzo_dog=  {
+    1=  20(number)
+    2=  30(number)
+    },
+
+    depth=  2(number)
+    config_parm=  here we go again(string)
+    },
+
+    another=  {
+    felix=  "cat"(string)
+    },
+
+    },
+-----
+  {
+    home=  /bonzo/dog/etc(string)
+    fred=  1(number)
+    alice=  2(number)
+    },
+-----
+  {
+    1=  {
+    1=  1000(number)
+    2=  444(number)
+    3=  222(number)
+    },
+
+    2=  {
+    1=  44(number)
+    2=  555(number)
+    3=  224(number)
+    },
+
+    },
+-----

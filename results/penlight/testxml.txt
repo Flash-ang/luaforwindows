@@ -1,0 +1,43 @@
+{
+  [[
+
+]],
+  {
+    attr = {
+      "name",
+      "phenomenon",
+      "units",
+      "id",
+      "vmin",
+      "vmax",
+      "device",
+      "calib",
+      "sampling_interval",
+      "measurement_interval",
+      id = "1",
+      vmin = "0",
+      units = "mm",
+      sampling_interval = "25000",
+      vmax = "5000",
+      name = "closure-meter",
+      phenomenon = "closure",
+      measurement_interval = "600000",
+      device = "closure-meter",
+      calib = "0,0;5000,5000"
+    },
+    tag = "detector"
+  },
+  attr = {
+    "name",
+    "id",
+    "loc",
+    "device",
+    "init",
+    name = "closure-meter-2",
+    init = "true",
+    id = "7D7D0600006F0D00",
+    loc = "100,100,0",
+    device = "closure-meter"
+  },
+  tag = "sensor"
+}

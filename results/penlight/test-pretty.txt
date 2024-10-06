@@ -1,0 +1,22 @@
+{
+  "one",
+  "two",
+  "three",
+  {
+    1,
+    2,
+    3
+  },
+  [0] = false,
+  beta = 2,
+  s = [[hello dolly
+you're so fine
+]],
+  _fred = {
+    true,
+    true
+  },
+  gamma = 3,
+  alpha = 1,
+  ["&"] = true
+}
